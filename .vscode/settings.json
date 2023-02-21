@@ -1,0 +1,17 @@
+{
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#e17826",
+    "statusBar.background": "#ba601a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#e17826",
+    "statusBarItem.remoteBackground": "#ba601a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "tab.activeBorder": "#e17826",
+    "titleBar.activeBackground": "#ba601a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#ba601a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#ba601a"
+}
