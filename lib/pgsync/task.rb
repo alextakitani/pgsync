@@ -1,3 +1,4 @@
+require 'faker'
 module PgSync
   class Task
     include Utils
