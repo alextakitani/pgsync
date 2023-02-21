@@ -242,7 +242,7 @@ module PgSync
         elsif rule.key?("statement")
           rule["statement"]
         elsif rule.key?("ruby")
-          eval(rule["ruby"])
+          escape(eval(rule["ruby"]))
         else
           raise Error, "Unknown rule #{rule.inspect} for column #{column}"
         end
