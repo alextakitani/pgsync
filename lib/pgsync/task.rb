@@ -242,7 +242,7 @@ module PgSync
         elsif rule.key?("statement")
           rule["statement"]
         elsif rule.key?("ruby")
-          escape(eval(rule["ruby"]))
+          "#{quoted_primary_key(table, primary_key, eval(rule["ruby"]))}::text"
         else
           raise Error, "Unknown rule #{rule.inspect} for column #{column}"
         end
